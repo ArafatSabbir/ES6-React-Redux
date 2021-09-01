@@ -1,12 +1,13 @@
+import Header from "./components/Header";
 
-const name = 'Sabbir';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello {name}</h1>
+      <Header />
     </div>
   );
 }
+
 
 export default App;
